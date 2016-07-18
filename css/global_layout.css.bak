@@ -1,0 +1,154 @@
+@charset "utf-8";
+
+/********************************************
+	LAYOUT
+********************************************/
+#wrap {
+	overflow: hidden;
+	position: relative;
+	min-width: 1200px;
+	height: 100%;
+	min-height: 100%;
+	height: auto !important;
+}
+#container {width:100%; margin:0 auto;}
+
+/********************************************
+	HEADER
+********************************************/
+#header {width:100%; border-bottom:1px solid #422e30; margin:0 auto; }
+#header .homehead  {width:100%; height:40px; margin:0 auto; background-color:#0369d3;}
+#header .homehead .gnbwrap {width:1200px;  margin:0 auto;}
+#header .homehead .gnbwrap .headhome {float:left; background:#055bb3; width:250px; height:40px}
+#header .homehead .gnbwrap .headhome a { background:url('../images/common/icon_home01.png') no-repeat 50px 0; line-height:40px; padding-left:70px; color:#fff; font-size:16px}
+#header .homehead .gnbwrap .headUtil {float:right; padding:10px 0 0; text-align:right; color:#ffffff; }
+#header .homehead .gnbwrap .headUtil a {display:inline-block; vertical-align:top;}
+#header .homehead .gnbwrap .headUtil a.btnLogin,
+#header .homehead .gnbwrap .headUtil a.btnQa,
+#header .homehead .gnbwrap .headUtil a.btnJoin {padding:0 25px 0 25px; line-height:22px;  color:#fff; background:url('../images/common/homegnb_line.png') no-repeat right center;}
+#header .homehead .gnbwrap .headUtil a.btnSitemap {padding:0 0 0 25px; line-height:22px; color:#fff; }
+#header .headWrap {width:1200px; height:85px; margin:0 auto; }
+#header .headWrap .logo {display:block; float:left;}
+#header .headWrap .logo_online {display:block; float:left; background:url('../images/common/logo_online.png') no-repeat left center; height:85px; padding:25px 0 0 60px; color:#4d93e0; font-size:28px; font-weight:bold; letter-spacing:-2px}
+#header .headWrap .logo_post {display:block; float:left; background:url('../images/common/logo_post.png') no-repeat left center; height:85px; padding:25px 0 0 60px; color:#3dbbd1; font-size:28px; font-weight:bold}
+#header .headWrap .logo a {display:inline-block;}
+#header .headWrap .logo img {margin:15px 0 0 0;}
+#header .headWrap .headRight {float:right; width:934px; margin:30px 0 0 0;}
+#header .headWrap .headRight ul {width:934px; float:right; }
+#header .headWrap .headRight li { float:left; text-align:left; font-size:20px; color:#333; margin-right:94px; height:55px; font-weight:bold}
+#header .headWrap .headRight li .selecton,
+#header .headWrap .headRight li a:hover { float:left; text-align:left; font-size:20px; color:#096fd2;  border-bottom:3px solid #096fd2; height:55px;}
+#header .headWrap .headRight li.school {width:80px; float:right; text-align:right; height:55px;margin-right:0;}
+#header .headWrap .headRight li.school a:hover {width:80px; float:right; text-align:right;  height:55px;}
+#header .headWrap .headRight li.online { float:left; text-align:left; font-size:20px; color:#333; margin-right:80px; height:55px; font-weight:bold}
+#header .headWrap .headRight li.online_first { float:left; text-align:left; font-size:20px; color:#333; padding-left:30px; margin: 0 79px 0 0; height:55px; font-weight:bold}
+#header .headWrap .headRight li.online_02 { float:left; text-align:left; font-size:20px; color:#333; width:130px; height:55px; font-weight:bold}
+
+#header .headWrap .headRight li.post { float:left; text-align:left; font-size:20px; color:#333; margin-right:77px; height:55px; font-weight:bold;}
+#header .headWrap .headRight li.post_first { float:left; text-align:left; font-size:20px; color:#333; margin: 0 77px 0 30px; height:55px; font-weight:bold;}
+#header .headWrap .headRight li.post_02 { float:right; text-align:right; font-size:20px; color:#333; height:55px; font-weight:bold;  margin-right:0; }
+#header .headWrap .headRight li .post_selecton,
+#header .headWrap .headRight li.post a:hover , 
+#header .headWrap .headRight li.post_first a:hover,  
+#header .headWrap .headRight li.post_02 a:hover{ float:left; text-align:left; font-size:20px; color:#3dbbd1;  border-bottom:3px solid #3dbbd1; height:55px;}
+.tutor_online {margin-right:120px}
+/********************************************
+	SUB VIUAL TITLE 
+********************************************/
+#container.sub{width:100%; margin:0 auto;  position:relative; background:url('../images/sub/title_img_intro.jpg') no-repeat; padding-bottom:40px}
+#container.sub .VisualtitWrap {width:1200px; margin:0 auto; padding:0; position:relative;  height:149px}
+#container.sub .VisualtitWrap h1 {font-size:36px; font-weight:700; color:#fff; padding-top:50px}
+/*이러닝학습*/
+#container.sub_online{width:100%; margin:0 auto;  position:relative; background:url('../images/sub/title_img_intro.jpg') no-repeat; padding-bottom:40px}
+#container.sub_online .Visual_onlinetit {width:1200px; margin:0 auto; padding:0; position:relative;  height:149px}
+#container.sub_online .Visual_onlinetit h1 {position:absolute; top:50px; left:300px; font-size:36px; font-weight:700; color:#fff;}
+#container.sub_online .Visual_onlinetit .myinfoWrap {position:relative; display:inline-block;  width:250px; background:#4d93e0; height:149px; padding:30px}
+#container.sub_online .Visual_onlinetit .myinfoWrap .infowrap {position:relative; display:inline-block;  width:180px; height:50px;   border-bottom:1px solid #a6c9f0}
+#container.sub_online .Visual_onlinetit .myinfoWrap .infowrap .tagImg {position:absolute; top:0; width:40px; height:40px; background:url('../images/common/tag_online.png') no-repeat; text-align:center; color:#fff; font-size:12px ; padding:5px 0 0 0}
+#container.sub_online .Visual_onlinetit .myinfoWrap .infowrap .info {position:absolute; top:2px; left:50px; width:100px; color:#fff}
+#container.sub_online .Visual_onlinetit .myinfoWrap .infowrap .info span.mail {display:inline-block; background:url('../images/common/ic_mail.png') no-repeat left center; padding-left:20px; margin-top:5px}
+#container.sub_online .Visual_onlinetit .myinfoWrap .btnWrap { width:180px; display:inline-block; padding:0; margin-top:10px}
+#container.sub_online .Visual_onlinetit .myinfoWrap .btnWrap a {display:inline-block; width:80px; background:#505050; color:#fff;  height:30px; padding-top:7px;}
+
+/*우편학습*/
+#container.sub_post {width:100%; margin:0 auto;  position:relative; background:url('../images/sub/title_img_intro.jpg') no-repeat; padding-bottom:40px}
+#container.sub_post .Visual_onlinetit {width:1200px; margin:0 auto; padding:0; position:relative;  height:149px}
+#container.sub_post .Visual_onlinetit h1 {position:absolute; top:50px; left:300px; font-size:36px; font-weight:700; color:#fff;}
+#container.sub_post .Visual_onlinetit .myinfoWrap {position:relative; display:inline-block;  width:250px; background:#3dbbd1; height:149px; padding:30px}
+#container.sub_post .Visual_onlinetit .myinfoWrap .infowrap {position:relative; display:inline-block;  width:180px; height:50px;   border-bottom:1px solid #9edde8}
+#container.sub_post .Visual_onlinetit .myinfoWrap .infowrap .tagImg {position:absolute; top:0; width:40px; height:40px; background:url('../images/common/tag_post.png') no-repeat; text-align:center; color:#fff; font-size:12px ; padding:5px 0 0 0}
+#container.sub_post .Visual_onlinetit .myinfoWrap .infowrap .info {position:absolute; top:2px; left:50px; width:100px; color:#fff}
+#container.sub_post .Visual_onlinetit .myinfoWrap .infowrap .info span.mail {display:inline-block; background:url('../images/common/ic_mail.png') no-repeat left center; padding-left:20px; margin-top:5px}
+#container.sub_post .Visual_onlinetit .myinfoWrap .btnWrap { width:180px; display:inline-block; padding:0; margin-top:10px}
+#container.sub_post .Visual_onlinetit .myinfoWrap .btnWrap a {display:inline-block; width:80px; background:#505050; color:#fff;  height:30px; line-height:30px; margin-right:5px}#container #subcontents {width:100%;  position:relative; display:inline-block;  overflow:hidden; text-align:center}
+*{margin:0;padding:0; box-sizing:border-box;}
+#container #subcontents .contentWrap{width:1200px; margin:0 auto; padding-top:40px; position:relative; display:inline-block; text-align:left }
+
+/********************************************
+	SUB LEFT MENU
+********************************************/
+#container #subcontents .contentWrap .LeftmenuWrap {width:250px; float:left; display:inline-block;}
+#container #subcontents .contentWrap .LeftmenuWrap ul {width:250px; display:inline-block;    margin-bottom:30px}
+#container #subcontents .contentWrap .LeftmenuWrap li a , #container #subcontents .contentWrap .LeftmenuWrap li.online a {width:250px; background:#f0f0f0; height:40px; line-height:18px;  margin-bottom:2px; color:#333; font-size:18px; padding:10px 0 0 25px; display:block; }
+#container #subcontents .contentWrap .LeftmenuWrap li a.on, 
+#container #subcontents .contentWrap .LeftmenuWrap li a:hover {background:#086acf; color:#fff;}
+#container #subcontents .contentWrap .LeftmenuWrap li.online a.online_on , 
+#container #subcontents .contentWrap .LeftmenuWrap li.online a:hover {background:#4d93e0; color:#fff;}
+#container #subcontents .contentWrap .LeftmenuWrap li.post a.post_on , 
+#container #subcontents .contentWrap .LeftmenuWrap li.post a:hover {background:#3dbbd1; color:#fff;}
+
+#container #subcontents .contentWrap .LeftmenuWrap li > ul {width:200px; display:inline-block; margin:5px 0 5px 20px}
+#container #subcontents .contentWrap .LeftmenuWrap li > ul > li a.submenu ,
+#container #subcontents .contentWrap .LeftmenuWrap li.online > li > ul > li a.submenu , 
+#container #subcontents .contentWrap .LeftmenuWrap li.post > li > ul > li a.submenu {height:30px; background:#fff; color:#666; background:url(../images/common/blt_dot.png) no-repeat center left; padding:5px 0 0 10px; font-size:16px}
+#container #subcontents .contentWrap .LeftmenuWrap li > ul > li a.submenuon,
+#container #subcontents .contentWrap .LeftmenuWrap li > ul > li a.submenu:hover {height:30px; background:#fff; color:#086bd0; background:url(../images/common/blt_dot.png) no-repeat center left; padding:5px 0 0 10px; font-size:16px}
+#container #subcontents .contentWrap .LeftmenuWrap li.online > ul > li a.submenuon,
+#container #subcontents .contentWrap .LeftmenuWrap li.online > ul > li a.submenu:hover {height:30px; background:#fff; color:#086bd0; background:url(../images/common/blt_dot.png) no-repeat center left; padding:5px 0 0 10px; font-size:16px}
+#container #subcontents .contentWrap .LeftmenuWrap li.post > ul > li a.submenuon,
+#container #subcontents .contentWrap .LeftmenuWrap li.post > ul > li a.submenu:hover {height:30px;  background:#fff; color:#00abc9; background:url(../images/common/blt_dot.png) no-repeat center left; padding:5px 0 0 10px; font-size:16px}
+
+#container #subcontents .contentWrap .LeftmenuWrap .customerWrap {width:100%; background:#f0f0f0; padding:25px;}
+#container #subcontents .contentWrap .LeftmenuWrap .customerWrap dt {color:#333; font-weight:700; font-size:18px; height:30px}
+#container #subcontents .contentWrap .LeftmenuWrap .customerWrap dd {color:#666; line-height:180%}
+/*입학안내  qna  원격지원서비스*/
+#container #subcontents .contentWrap .LeftmenuWrap .linkgo {position:relative; width:250px;  display:inline-block; font-size:13px  }
+#container #subcontents .contentWrap .LeftmenuWrap .linkgo li {height:40px; font-weight:bold; border-top:1px solid #fff ; width:250px; font-size:13px}
+#container #subcontents .contentWrap .LeftmenuWrap .linkgo li.linkgo01 {background:#3dbbd1;   color:#fff; font-size:13px}
+#container #subcontents .contentWrap .LeftmenuWrap .linkgo li.linkgo01 a { background:url(../images/sub/ic_entry.png) no-repeat 70px; padding-top:12px; color:#fff;  padding-left:95px ; font-size:13px; font-weight:bold;}
+#container #subcontents .contentWrap .LeftmenuWrap .linkgo li.linkgo02 {background:#687be0;  font-size:13px}
+#container #subcontents .contentWrap .LeftmenuWrap .linkgo li.linkgo02 a { background:url(../images/sub/ic_qa.png) no-repeat 62px; padding-top:10px; color:#fff;padding-left:95px;  font-size:13px; font-weight:bold;}
+#container #subcontents .contentWrap .LeftmenuWrap .linkgo li.linkgo03 {background:#d1396f; font-size:13px}
+#container #subcontents .contentWrap .LeftmenuWrap .linkgo li.linkgo03 a { background:url(../images/sub/ic_onestop.png) no-repeat 67px; padding-top:10px; color:#fff;padding-left:95px;font-size:13px ; font-weight:bold;}
+
+
+#container #subcontents .contentWrap .LeftmenuWrap .linkgo img {vertical-align:middle; padding:0 5px 0 0}
+#container #subcontents .contentWrap .contentboxWrap {width:855px; float:right;}
+
+/********************************************
+	FOOTER
+********************************************/
+.footerWrap {position:fixed width:100%; background:#646464; text-align:center; clear:both}
+.footerWrap a {display:block;font-size:13px;font-weight:bold; color:#b7b7b7; line-height:140%}
+.footerWrap a:hover {text-decoration:none;}
+.footerWrap ul:after {content:".";display:block;height:0px;clear:both;visibility:hidden;}
+.footerWrap li:first-child {background:none;}
+.footerWrap li {float:left;}
+.footerWrap footer {position:relative; margin:0 auto; padding:27px 0; width:1200px; letter-spacing:-1px;/* max-width:1200px; */ display:inline-block; text-align:left}
+.footerWrap footer .ftLogo {width:220px; float:left; padding-top:5px;}
+
+.footerWrap footer .footerLink {float:left; }
+.footerLink ul {overflow:hidden;}
+.footerLink li {background:url('../images/common/bg_defaultLine.png') no-repeat left center;margin-left:20px;padding-left:20px; font-weight:bold;  line-height:140%}
+.footerLink li:first-child {margin-left:0;padding-left:0;}
+.footerWrap address {display:block; margin-bottom:5px;font-style:normal; font-size:13px; color:#b7b7b7;}
+.footerWrap address span {display:inline-block;}
+
+.footerWrap footer .asideWrap { position:relative; border:1px solid #000; display:inline-block; float:right}
+.familySite {position:relative;width:135px;}
+.familySite .tit {display:block; background-color:#2b2b2b;}
+.familySite .tit a {background:url('../images/common/icon_ArrBottom.png') no-repeat right center;padding:5px 25px 5px 10px;}
+.familySite ul {display:none;position:absolute;left:0;right:0;bottom:29px;background-color:#2b2b2b;border:1px solid #5d5d5d;}
+.familySite li {float:none;}
+.familySite li a {padding:5px 10px;}
+.familySite.on .tit a {background:url('../images/common/icon_ArrBottom.png') no-repeat right center;}
