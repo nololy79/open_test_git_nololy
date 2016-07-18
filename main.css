@@ -1,0 +1,110 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url("default.css");
+@import url("global_layout.css");
+/********************************************
+	VISUAL 
+********************************************/
+#container.main {width:100%; margin:0 auto;  position:relative; background:url('../images/main/visual_img.jpg') no-repeat;}
+#container.main .mainVisualWrap {width:1200px; margin:0 auto; padding:0; position:relative;  height:460px}
+#container.main .mainVisualWrap .explain_txt {padding:50px 0 0 0}
+#container.main .mainVisualWrap .explain_txt h1 {font-size:40px; font-weight:700; padding:0 0 10px 0; color:#1f538c}
+#container.main .mainVisualWrap .explain_txt span{line-height:24px; font-size:16px; color:#7598b8}
+#container.main .mainVisualWrap .studygo {width:520px; height:170px; position:relative; margin:60px 0 0 0;}
+#container.main .mainVisualWrap .studygo  > ul > li {float:left; margin-right:20px}
+#container.main .mainVisualWrap .studygo  > ul > li.post {position:relative; display:inline-block; background-color:#0ea6c0; width:160px; height:160px; border-radius:160px;-webkit-border-radius:160px; -moz-border-radius:160px;}
+#container.main .mainVisualWrap .studygo  > ul > li.post .study_post {position:absolute; top:0; left:0; width:160px; height:160px; background:url('../images/main/study_post.png') no-repeat center 45px; text-align:center;}
+#container.main .mainVisualWrap .studygo  > ul > li.online {position:relative; display:inline-block; background-color:#2e8af0; width:160px; height:160px; border-radius:160px;-webkit-border-radius:160px;-moz-border-radius:160px;}
+#container.main .mainVisualWrap .studygo  > ul > li.online .study_online {
+	position:absolute; top:0; left:0; width:160px; height:160px; background:url('../images/main/study_online.png') no-repeat center 40px; text-align:center;
+	}
+#container.main .mainVisualWrap .studygo  > ul > li.new {position:relative; display:inline-block; background-color:#ff6699; width:160px; height:160px; border-radius:160px;-webkit-border-radius:160px;-moz-border-radius:160px;  margin-right:0}
+#container.main .mainVisualWrap .studygo  > ul > li.new .study_new {position:absolute; top:0; right:0; width:150px; height:150px; background:url('../images/main/study_new.png') no-repeat center 40px; text-align:center;}
+#container.main .mainVisualWrap .studygo span { margin:85px 0 0 0; color:#fff; display:inline-block; font-size:20px; font-weight:700;line-height:100%}
+#container.main .mainVisualWrap .studygo span.stit { margin:80px 0 0 0; color:#fff; display:inline-block; font-size:20px; font-weight:700;line-height:100%}
+#container.main .mainVisualWrap .studygo span .txt_e {font-size:14px; font-weight:none; margin:0px}
+/********************************************
+	CONTENTS
+********************************************/
+#container #contents {width:100%;  position:relative; display:inline-block;  overflow:hidden; text-align:center}
+*{margin:0;padding:0; box-sizing:border-box;}
+#container #contents .contentWrap{width:1200px; margin:0 auto; padding:40px 0; position:relative; display:inline-block;  }
+
+/*Right 로그인*/
+#container #contents .contentWrap .RightWrap {
+	width: 580px;
+	float: right;
+	position: relative;
+	text-align: left;
+}
+#container #contents .contentWrap .RightWrap .loginWrap {width:580px;  border:1px solid #e4e4e4;  padding:25px 0 25px 30px; position:relative; display:inline-block;  background:#f5f5f5; }
+.loginWrap .loginForm ul {width:100%; border:}
+.loginWrap .loginForm li {width:185px; float:left; padding:10px 0 0 0;}
+.loginWrap .loginForm li.login {width:135px; float:left;}
+.loginWrap .loginForm .btnLogin {width:132px; height:40px; font-size:14px; font-weight:700; color:#fff; text-align:center; background:#4d93e0; border:none}
+.loginWrap .loginForm input.check{border:1px solid #e1e1e1; height:15px; background:#fff; width:15p; margin-top:-3px; vertical-align:middle;}
+.loginWrap .loginForm input.idpw{border:1px solid #e1e1e1; height:40px; background:#fff; width:175px}
+.loginWrap .loginForm .srhidpw {clear:both; width:300px; padding:10px 0 0 0}
+.loginWrap .loginForm .srhidpw a{text-decoration:underline; padding:0 0 0 10px; line-height:120%}
+.loginWrap .loginForm .btn_Wrap {border-top:1px solid #e4e4e4; padding-top:15px; text-align:center; margin-top:10px; width:510px;}
+.loginWrap .loginForm h2 {font-weight:bold; padding-left:10px}
+.loginWrap .loginForm .btn_Wrap a.btn_mem {display:inline-block; text-align:center; width:110px; margin:3px 0 0  0; background:#2e8af0; color:#fff; font-size:13px; line-height:40px; height:40px; margin-right:10px}
+/*Right  바로가기 입학안내 등록안내등등*/
+#container #contents .contentWrap .RightWrap .goBtnWrap {position:relative;  width:580px; height:135px; color:#333333; margin:25px 0 0 0; background-color:#eff3f7; border:1px solid #e4e4e4}
+#container #contents .contentWrap .RightWrap .goBtnWrap a.btngo_guide{position:absolute; top:0; left:0; width:143px; height:135px; text-align:center ; 	background: url('../images/main/goBtn01.png') no-repeat center bottom 60px; border-right:1px solid #fff}
+#container #contents .contentWrap .RightWrap .goBtnWrap a.btngo_guide:hover {position:absolute; top:0; left:0; width:143px; height:135px; text-align:center ; 	background: url('../images/main/goBtn01_on.png') no-repeat center bottom 60px; border-right:1px solid #fff}
+#container #contents .contentWrap .RightWrap .goBtnWrap a.btngo_sign{position:absolute; top:0; left:143px; width:144px; height:135px; text-align:center; background: url('../images/main/goBtn02.png') no-repeat center bottom 60px; border-right:1px solid #fff }
+#container #contents .contentWrap .RightWrap .goBtnWrap a.btngo_sign:hover {position:absolute; top:0; left:143px; width:144px; height:135px; text-align:center; background: url('../images/main/goBtn02_on.png') no-repeat center bottom 60px; border-right:1px solid #fff }
+#container #contents .contentWrap .RightWrap .goBtnWrap a.btngo_qa{position:absolute; top:0; left:287px; width:144px; height:135px; text-align:center; background: url('../images/main/goBtn03.png') no-repeat center bottom 60px; border-right:1px solid #fff }
+#container #contents .contentWrap .RightWrap .goBtnWrap a.btngo_qa:hover{position:absolute; top:0; left:287px; width:144px; height:135px; text-align:center; background: url('../images/main/goBtn03_on.png') no-repeat center bottom 60px; border-right:1px solid #fff }
+#container #contents .contentWrap .RightWrap .goBtnWrap a.btngo_remotely{position:absolute; top:0; left:431px; width:144px; height:135px; text-align:center; background: url('../images/main/goBtn04.png') no-repeat center bottom 60px;  }
+#container #contents .contentWrap .RightWrap .goBtnWrap a.btngo_remotely:hover {position:absolute; top:0; left:431px; width:144px; height:135px; text-align:center; background: url('../images/main/goBtn04_on.png') no-repeat center bottom 60px;  }
+#container #contents .contentWrap .RightWrap .goBtnWrap .txt {font-size:16px; font-weight:700; padding-top:90px}
+#container #contents .contentWrap .RightWrap .goBtnWrap .txt:hover {text-decoration:underline}
+
+/*교육원문의*/
+#container #contents .contentWrap .RightWrap .customer {position:relative; clear:both; width:580px; height:158px; color:#333333; margin:25px 0 0 0; background-color:#fafafa; border:1px solid #e4e4e4;  display:inline-block;}
+#container #contents .contentWrap .RightWrap .customer .edu_titwrap {width:154px; height:156px; float:left; background:url(../images/main/cutomer_bg.png) no-repeat;  display:inline-block;}
+#container #contents .contentWrap .RightWrap .customer .edu_titwrap h2 {font-size:20px; color:#333; font-weight:700; margin:20px 0 0 20px}
+#container #contents .contentWrap .RightWrap .customer .edu_phonewrap {width:208px; float:left;}
+#container #contents .contentWrap .RightWrap .customer .edu_phonewrap dl  {width:208px; margin:10px 0 0 10px}
+#container #contents .contentWrap .RightWrap .customer .edu_phonewrap dt {font-size:12px; font-weight:700; padding-top:15px }
+#container #contents .contentWrap .RightWrap .customer .edu_phonewrap dd {font-size:24px; font-weight:700; color:#d1396f;}
+#container #contents .contentWrap .RightWrap .customer .edu_exwrap {width:196px; float:right; margin:30px 0 0 0 ; }
+#container #contents .contentWrap .RightWrap .customer .edu_exwrap span {line-height:32px}
+#container #contents .contentWrap .RightWrap .customer .edu_exwrap span a{text-decoration:underline;}
+/*Left 공지사항 학사일정*/
+#container #contents .contentWrap .LeftWrap {width:580px; float:left; position:relative; }
+#container #contents .contentWrap .LeftWrap .notice{width:580px; border:1px solid #e4e4e4; display:inline-block; padding:25px}
+#container #contents .contentWrap .LeftWrap .notice .tit {width:116px; float:left; text-align:left;}
+#container #contents .contentWrap .LeftWrap .notice .tit h2 { font-size:20px; color:#333333; border-bottom:3px solid#0369d3; padding:0 0 5px 0; width:80px; font-weight:700;}
+#container #contents .contentWrap .LeftWrap .notice .tablelist {width:405px; float:left; text-align:left;}
+/*tab*/
+.tabWrap {width:100%; }
+.tabWrap ul {width:100%; border-bottom:1px solid #036cd4; display:inline-block;}
+.tabWrap li { float:left; width:96px; text-align:center; background:#f5f5f5; vertical-align:middle; }
+.tabWrap li a{ display:block; height:32px; border-top:1px solid #bbbbbb; border-right:1px solid #bbbbbb; padding-top:8px }
+.tabWrap li a.on, 
+.tabWrap li a:hover {background:#0369d3; border:solid 1px #0369d3; color:#fff; font-weight:700}
+.tabWrap li.more { float:right; background:#ffffff; border:none; text-align:right; font-size:12px;}
+.tabWrap li.more a,
+.tabWrap li.more a:hover{background:#fff; color:#666; border:none}
+
+.tableWrap {width:405px; text-align:left; padding:10px 0 0 0}
+.tableWrap td {height:26px; }
+.tableWrap td a:hover {text-decoration:underline}
+
+/*하단 링크 성경검색 등등*/
+#container #contents .contentWrap .LinkgoWrap {clear:both; width:1200px; text-align:left; margin-top:20px; display:inline-block; }
+#container #contents .contentWrap .LinkgoWrap ul { margin:20px 0 0 0;  display:inline-block; background:#eff3f7;}
+#container #contents .contentWrap .LinkgoWrap li { float:left;  height:75px; width:297px; color:#1f538c; font-size:18px; font-weight:bold}
+#container #contents .contentWrap .LinkgoWrap li a.btn_linkgo01 {float:left; width:297px; height:75px; color:#4f96e1;  text-align:left ; background: url('../images/main/link_go01.png') no-repeat 220px 10px; border-right:5px solid #fff}
+#container #contents .contentWrap .LinkgoWrap li a.btn_linkgo02 {float:left;  width:297px; height:75px; color:#4f96e1;  text-align:left ; background: url('../images/main/link_go02.png') no-repeat 220px 10px; border-right:5px solid #fff}
+
+#container #contents .contentWrap .LinkgoWrap li a.btn_linkgo03 {float:left;  width:297px; height:75px; color:#4f96e1;  text-align:left ; background: url('../images/main/link_go03.png') no-repeat 210px 20px; border-right:5px solid #fff}
+
+#container #contents .contentWrap .LinkgoWrap li a.btn_linkgo04 {float:left;  width:297px; height:75px; color:#4f96e1;  text-align:left ; background: url('../images/main/link_go04.png') no-repeat right ; }
+
+#container #contents .contentWrap .LinkgoWrap li .text { padding:25px 0 0 25px;}
+#container #contents .contentWrap .LinkgoWrap li .text:hover {text-decoration:underline;}
